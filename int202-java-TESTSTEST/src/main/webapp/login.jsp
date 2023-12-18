@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
-  User: FIRST-ACER-Desktop
+  User: AomAPJJJ
   Date: 12/15/2023
   Time: 3:55 PM
   To change this template use File | Settings | File Templates.
@@ -19,7 +19,7 @@
             <h1 class="text-5xl font-bold">Login</h1>
         </div>
         <div class="card shrink-0 w-full shadow-2xl bg-base-100">
-            <form class="card-body" method="post" action="${pageContext.request.contextPath}/057/login">
+            <form class="card-body" method="post" action="${pageContext.request.contextPath}/050/login">
                 <c:if test="${requestScope.loginError != null}">
                     <div role="alert" class="alert alert-error">
                         <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none"
